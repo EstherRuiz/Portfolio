@@ -3989,7 +3989,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -4273,7 +4273,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: #CF23A4;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {

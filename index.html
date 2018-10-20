@@ -10,7 +10,7 @@
   <link href="./css/reset.css"        type="text/css" rel="stylesheet">
   <link href="./css/bootstrap.css" type="text/css" rel="stylesheet">
   <link href="./css/style.css"        type="text/css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>Portfolio Esther</title>
 
@@ -19,13 +19,16 @@
 <body>
   <body data-spy="scroll" data-target=".navbar" data-offset="70">
 
+
     <!--Start Home Section-->
     <section class="home" id="home">
       <div class="full_height">
+        <div id="particles-js"></div>
+
 
         <!-- nav -->
         <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
-          <a class="navbar-brand" href="#">LOGO</a>
+          <a class="navbar-brand" href="#">esther</a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,23 +37,21 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home </a>
+                <a class="nav-link" href="#home">Home </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             </ul>
           </div>
         </nav>
-
-
 
         <div class="display-table">
           <div class="display-table-cell">
@@ -80,7 +81,7 @@
           <div class="col-md-7 padding-left-35">
             <h3 class="animated fadeInUp" style="animation-delay: 0.3s">Hi There! I am Esther Ruiz</h3>
             <p class="animated fadeInUp" style="animation-delay: 0.3s">I'm creative designer UX/UI based in Barcelona, specializing in User Experience, Interface Design and Graphic Design. I build clean, appealing, and functional interfaces which comply with the latest web standards.</p>
-            <p class="animated fadeInUp" style="animation-delay: 0.3s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="animated fadeInUp" style="animation-delay: 0.3s">Creativity, Collaboration, Emotional Intelligence, Teams and the User in the center of everything.</p>
 
             <!-- Skills -->
             <div class="skills">
@@ -114,7 +115,7 @@
 
             </div><!--.skills-->
             <div class="about_btns animated fadeInUp" style="animation-delay: 0.3s">
-              <a href="#">Download CV</a>
+              <a href="./imagen/CV_EstherRuiz.pdf">Download CV</a>
               <a href="#contact" class="smooth_scroll">Contact Me</a>
             </div>
           </div><!--.col-sm-7-->
@@ -134,15 +135,15 @@
         <div class="row grid" style="position:">
 
           <!--project 1-->
-          <div class="col-xs-12 col-sm-6 col-md-6 grid-sizer grid-item design" >
+          <div class="col-xs-12 col-sm-6 col-md-6 grid-sizer grid-item" >
             <div class="box animated fadeInUp" style="animation-delay: 0.3s">
-              <div class="my_img" data-mfp-src="./imagen/ScreenSplash.png">
-                <img src="./imagen/ScreenSplash.png" alt="pantalla de presentación">
+              <div class="my_img" data-mfp-src="./imagen/portfolio_2_3.png">
+                <img src="./imagen/portfolio_2_3.png" alt="pantalla app kipi">
               </div>
               <div class="boxContent">
                 <div class="display-table">
                   <div class="display-table-cell">
-                    <span class="post">Research</span>
+                    <span class="post">Prototipe</span>
                     <h3 class="title">app Kipi</h3>
                   </div>
                 </div>
@@ -151,16 +152,16 @@
           </div>
 
           <!--project 2-->
-          <div class="col-xs-12 col-sm-6 col-md-6 grid-item marketing" >
+          <div class="col-xs-12 col-sm-6 col-md-6 col-l-4 grid-item" >
             <div class="box animated fadeInUp" style="animation-delay: 0.3s">
-              <div class="my_img" data-mfp-src="./imagen/VB_Accion_1.png">
-                <img src="./imagen/VB_Accion_1.png" alt="pantalla vision board acción 1">
+              <div class="my_img" data-mfp-src="./imagen/portfolio_1.png">
+                <img src="./imagen/portfolio_1.png" alt="pantalla app IFY">
               </div>
               <div class="boxContent">
                 <div class="display-table">
                   <div class="display-table-cell">
                     <span class="post">Prototipe</span>
-                    <h3 class="title">app Kipi</h3>
+                    <h3 class="title">app IFY</h3>
                   </div>
                 </div>
               </div>
@@ -168,16 +169,16 @@
           </div>
 
           <!--project 3-->
-          <div class="col-xs-12 col-sm-6 col-md-6 grid-item photography" >
+          <div class="col-xs-12 col-sm-6 col-md-6 grid-item" >
             <div class="box animated fadeInUp" style="animation-delay: 0.3s">
-              <div class="my_img" data-mfp-src="./imagen/IFY_1.jpg">
-                <img src="./imagen/IFY_1.jpg" alt="pantalla presentacion IFY">
+              <div class="my_img" data-mfp-src="./imagen/WishFuchsia.jpg">
+                <img src="./imagen/WishFuchsia.jpg" alt="logo Wish Fuchsia">
               </div>
               <div class="boxContent">
                 <div class="display-table">
                   <div class="display-table-cell">
-                    <span class="post">Research</span>
-                    <h3 class="title">app IFY</h3>
+                    <span class="post">Prototipe</span>
+                    <h3 class="title">Wish Fuchsia</h3>
                   </div>
                 </div>
               </div>
@@ -185,16 +186,16 @@
           </div>
 
           <!--project 4-->
-          <div class="col-xs-12 col-sm-6 col-md-6 grid-item design" >
+          <div class="col-xs-12 col-sm-6 col-md-6 grid-item" >
             <div class="box animated fadeInUp" style="animation-delay: 0.4s">
-              <div class="my_img" data-mfp-src="./imagen/IFY_7.jpg">
-                <img src="./imagen/IFY_7.jpg" alt="pantalla home app IFY">
+              <div class="my_img" data-mfp-src="./imagen/GlitterandChic.png">
+                <img src="./imagen/GlitterandChic.png" alt="pantalla home app IFY">
               </div>
               <div class="boxContent">
                 <div class="display-table">
                   <div class="display-table-cell">
                     <span class="post">Prototipe</span>
-                    <h3 class="title">app IFY</h3>
+                    <h3 class="title">Glitter and Chic</h3>
                   </div>
                 </div>
               </div>
@@ -277,7 +278,7 @@
         <div class="social-links">
           <!--Social links-->
           <a href="https://www.Instagram.com/" target="_blank">
-            <i class="fa fa-Instagram"></i>
+            <i class="fa fa-instagram"></i>
           </a>
           <a href="https://twitter.com/" target="_blank">
             <i class="fa fa-twitter"></i>
@@ -291,11 +292,6 @@
     </footer>
     <!--End Footer-->
 
-
-
-
-
   </body>
 
 </html>
-hguhg

@@ -45,6 +45,7 @@ a, a:hover, a:focus  {
     outline: none;
     color: inherit;
     font-weight: bold;
+    color: #CF23A4
 }
 
 h1 {
@@ -108,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 .sec_title h2 {
     font-size: 45px;
     font-weight: 900;
-    color: ##CF23A4;
+    color: #CF23A4;
     text-transform: capitalize;
     display: inline-block;
     position: relative;
@@ -411,7 +412,7 @@ h1, h2, h3, h4,
 }
 
 a{
- color: white;
+ color: #797979;
 }
 
 .main-menu ul {
@@ -868,18 +869,7 @@ a{
     transition: all 0.3s ease-in-out;
 }
 
-.about .about_btns a:first-of-type {
-    margin-right: 30px;
-    color: #fff;
-    background-color: #222;
-}
-
-.about .about_btns a:first-of-type:hover {
-    background-color: transparent;
-    color: #000;
-}
-
-.about .about_btns a:last-of-type:hover {
+.about .about_btns a:hover {
     background-color: #222;
     color: #fff;
 }
@@ -999,7 +989,7 @@ a{
     right: -16px;
     width: 1px;
     height: 41px;
-    background-color: #CECCCC;
+    background-color: #CF23A4;
 }
 
 .contact .content div {
@@ -1011,7 +1001,7 @@ a{
 .contact .content h4 {
     font-size: 16px;
     font-weight: 600;
-    color: #222;
+    color: black;
 }
 
 input.form-control {
@@ -1157,4 +1147,3 @@ footer .social-links a i {
 }
 
 /*End Footer*/
-gyyg
